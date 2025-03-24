@@ -33,7 +33,6 @@ pipeline = prompt_template | llm
 chat_map = {}
 def get_chat_history(session_id: str) -> InMemoryChatMessageHistory:
     if session_id not in chat_map:
-        # if session ID doesn't exist, create a new chat history
         chat_map[session_id] = InMemoryChatMessageHistory()
     return chat_map[session_id]
 
