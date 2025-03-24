@@ -14,6 +14,7 @@ The project consists of several Python files and modules that work together to p
     .env: A file containing environment variables such as the OpenAI API key for accessing the model.
 
 To run this project locally, follow these steps:
+
     -clone repository
     -create .env: A file containing environment variables such as the OpenAI API key for accessing the model.
     -run the fast API backend with command      uvicorn main:app --host 127.0.0.1 --port 8001
